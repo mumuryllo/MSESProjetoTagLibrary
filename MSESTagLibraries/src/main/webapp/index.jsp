@@ -36,7 +36,18 @@
  									<c:out value="${d1}"/>
  								</c:otherwise>
  							</c:choose></h1>
+ 		
+ 	<c:set var="nome" value="Primeira Pagina JSP utlizando JSTL"/>
+ 	
  	
  
+ 	
+ 	
+
+      
+      <c:set var="nome" value= "tru"/>
+     <c:if test="${nome == true }">
+		 <h1 class="text-danger">O seu nome é verdadeiro <c:out value= "${nome}"/></h1>
+		</c:if>
 </body>
 </html>
